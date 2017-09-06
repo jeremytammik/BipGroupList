@@ -2,7 +2,13 @@
 
 Revit C# .NET add-in to list all built-in parameter group enum values and labels.
 
-A four-liner:
+These values are reformatted into a JavaScript dictionary for use in
+the [Forge meta property editor](Tohttp://meta-editor.autodesk.link).
+
+It implements a round-trip workflow between Revit and Forge via
+the [RvtMetaProp add-in](https://github.com/jeremytammik/rvtmetaprop).
+
+The entire functionality is provided by a four-liner:
 
 <pre>
 <span style="color:#2b91af;">Array</span>&nbsp;a&nbsp;=&nbsp;<span style="color:#2b91af;">Enum</span>.GetValues(&nbsp;<span style="color:blue;">typeof</span>(&nbsp;<span style="color:#2b91af;">BuiltInParameterGroup</span>&nbsp;)&nbsp;);
