@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command BipGroupList</Text>
+    <Description>Some description for BipGroupList</Description>
+    <Assembly>BipGroupList.dll</Assembly>
+    <FullClassName>BipGroupList.Command</FullClassName>
+    <ClientId>76a2b2a3-3b1f-4620-bebd-f934d532e279</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
