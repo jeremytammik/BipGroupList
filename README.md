@@ -3,7 +3,7 @@
 Revit C# .NET add-in to list all built-in parameter group enum values and labels.
 
 These values are reformatted into a JavaScript dictionary for use in
-the [Forge meta property editor](Tohttp://meta-editor.autodesk.link).
+the [Forge meta property editor](http://meta-editor.autodesk.link).
 
 It implements a round-trip workflow between Revit and Forge via
 the [RvtMetaProp add-in](https://github.com/jeremytammik/rvtmetaprop).
