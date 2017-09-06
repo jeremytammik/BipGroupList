@@ -16,6 +16,22 @@ A four-liner:
 }
 </pre>
 
+**Question:** Could you reformat the list as follows?
+
+```
+{ id: 'PG_GEO_LOCATION', name: 'Geolocation'},
+```
+
+It will save me a lot of time typing all these!
+
+**Answer:** Sure. Just run the following regular expression on the list:
+
+i just ran the regex over it:
+ 
+- Search for `(.*) : (.*)\n`
+- Replace with `{ id: '\1', name: '\2'},\n`
+
+
 ## Author
 
 Jeremy Tammik,
